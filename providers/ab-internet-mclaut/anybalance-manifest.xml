@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<provider>
+  <id version="4">ab-internet-mclaut</id>
+  <api flags="no_browser|private"/>
+  <name>McLaut</name>
+  <description><![CDATA[
+    <p>Получает баланс и информацию о тарифном плане для интернет провайдера McLaut (https://mclaut.com/).</p>
+    <p>Интернет провайдер присутствует в городах Канев, Черкассы, Смела, Золотоноша, Переяслав-Хмельницкий, Звенигородка, Ватутино.</p>
+  ]]></description>
+  <author>AnyBalance Team &lt;info@anybalance.ru&gt;</author>
+  <files>
+    <icon>icon.png</icon>
+    <preferences>preferences.xml</preferences>
+    <history>history.xml</history>
+    <js>library.js</js>
+    <js>main.js</js>
+  </files>
+  <counters>
+    <counter id="balance" name="Баланс" units="₴"/>
+    <counter id="licschet" name="Лицевой счет" type="text"/>
+    <counter id="fio" name="ФИО" type="text"/>
+    <counter id="status" name="Активен" type="text"/>
+  </counters>
+  <keywords>
+    маклаут
+  </keywords>
+  <type>
+    internet
+  </type>
+  <country>
+    ua
+  </country>
+</provider>

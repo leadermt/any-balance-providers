@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<provider>
+	<api flags="no_browser"/>
+  <id version="5">ab-affiliate-oriflame-ua</id>
+  <name>Орифлейм</name>
+  <description>
+    Получает показатели личной активности консультанта Oriflame:
+      Украина (https://ua-eshop.oriflame.com), личный кабинет http://vip.oriflame.ua,
+      Беларусь (https://by-eshop.oriflame.com), личный кабинет http://by.oriflame.com/system/UI/LoginPopup,
+      Россия (https://ru-eshop.oriflame.com), личный кабинет http://vip.oriflame.ru.
+  </description>
+  <author>Dmitry Kochin &lt;dco@mail.ru&gt;</author>
+  <files>
+    <icon>icon.png</icon>
+    <preferences>preferences.xml</preferences>
+    <history>history.xml</history>
+    <js>library.js</js>
+    <js>main.js</js>
+  </files>
+  <counters>
+    <counter id="out" name="Сумма выплат" units=" {@currency}"/>
+    <counter id="bp" name="ББ" units=" ББ"/>
+    <counter id="ebp" name="ББ группы" units=" ББ"/>
+    <counter id="da" name="Объемная скидка" units=" {@currency}"/>
+    <counter id="bpr" name="ББ до следующего уровня" units=" ББ"/>
+    <counter id="nr" name="Следующий уровень"/>
+    <counter id="num" name="№ Консультанта" type="text"/>
+    <counter id="fio" name="Имя" type="text"/>
+    <counter id="bv" name="ОП" units=" {@currency}"/>
+    <counter id="ebv" name="ОП группы" units=" {@currency}"/>
+    <counter id="ob" name="Другие бонусы" units=" {@currency}"/>
+    <counter id="lc" name="Бонус ЛК" units=" {@currency}"/>
+    <counter id="cl" name="Кредитный статус" units=" {@currency}"/>
+  </counters>
+  <keywords>
+    орифлейм
+  </keywords>
+  <type>
+    affiliate
+  </type>
+  <country>
+    ua, by, ru
+  </country>
+</provider>

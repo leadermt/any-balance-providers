@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<provider>
+	<id version="1">ab-money-wellsfargo</id>
+	<api flags="no_browser"/>
+	<name>WellsFargo (USA)</name>
+	<description html="true"><![CDATA[
+	<p>Gets info on WellsFargo accounts https://www.wellsfargo.com</p>
+	<p>Information is obtained through internet bank https://online.wellsfargo.com/</a></p>
+	]]></description>
+	<author>AnyBalance Team &lt;info@anybalance.ru&gt;</author>
+	<files>
+		<icon>icon.png</icon>
+		<preferences>preferences.xml</preferences>
+		<js>easysax.js</js>
+		<js>library.js</js>
+		<js>extract.js</js>
+		<js>ofx.js</js>
+		<js>wellsfargo.js</js>
+		<js>nadapter.js</js>
+		<js>main.js</js>
+		<history>history.xml</history>
+	</files>
+	<counters>
+		<counter id="total" name="Total" prefix="$"/>
+		<counter id="balance" name="Available" prefix="$"/>
+		<counter id="cash" name="Cash" prefix="$"/>
+		<counter id="num" name="Account number (masked)" type="text"/>
+	</counters>
+	<keywords></keywords>
+	<type>money, bank</type>
+	<country>us</country>
+</provider>
